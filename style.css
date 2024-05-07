@@ -1,0 +1,198 @@
+
+.navbar{
+    background-color: black;
+}
+.navbar a{
+    color:white;
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar .navbar-brand{
+    
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar .navbar-nav{
+    margin-left: 360px;
+}
+.navbar .nav-item{
+    margin: 0 10px 0 10px;
+    color: white;
+}
+.navbar .nav-link{
+    color: white;
+
+}
+.location{
+    background: linear-gradient(40deg,rgb(255, 225, 0),rgb(255, 72, 0));
+    padding: 4px 14px 4px 14px;
+    color: white;
+    text-decoration: none;
+    border-radius: 24px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+/* ******************************************************************* banner start ****************** */
+.banner{
+    height:500px;
+    display: flex;   
+}
+.banner-text{
+    height:400px;
+    margin-top: 100px;   
+}
+.banner-text span{
+    background: linear-gradient(to right, #f4c803, #fd2701);
+    background-clip: text;
+    color: transparent;
+}
+.banner-text h1{
+    font-size: 50px;
+    color: rgb(93, 93, 93);
+}
+.banner-img{
+    height:400px;
+    background-image: url(images/banner-img.jpg);
+    background-size: 100% 100%;
+}
+.search-box{
+    border-radius: 50px;
+    background: linear-gradient(rgb(241, 241, 241),grey);
+    color:white;   
+}
+.search-btn{
+    background: linear-gradient(40deg,rgb(255, 225, 0),rgb(255, 72, 0));
+    color:white;
+}
+.banner-text form button{
+    color:white;
+    font-weight: 500;
+}
+
+/* ******************************************* */
+
+.food-box{
+   margin: 20px 40px 20px 40px;
+    background: linear-gradient(90deg,rgb(233, 232, 232),rgb(163, 163, 163));
+    border-radius: 10px;
+}
+.box{
+    margin:20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.pizza{
+    border-radius: 20px;
+    background-color: rgb(244, 243, 243);
+    
+}
+.pizza:hover{
+    background-color: #faf6e2; 
+}
+.pizza img{
+    height:100px;
+    width:100px;   
+}
+.pizza p{
+    color: grey;
+}
+.pizza p:hover{
+    color:#f48003;
+}
+.nav-item a{
+    color: #f48003;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-item a:hover{
+    color: #f48003;
+}
+.card:hover{
+    box-shadow: 1px 1px 20px rgb(196, 196, 196), 1px 1px 20px rgb(208, 206, 206);
+}
+.card img{
+    height:300px;
+    transition: transform 0.9s ease;
+    margin: 10px;   
+}
+.card{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.background-img{
+    background-image: url(images/background-img2.jpg);
+    background-size: cover;
+    color: rgb(18, 18, 18);
+    font-weight: bold;
+}
+.background-img h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow:2px 2px 5px #9b9a9a;   
+}
+.background-img p{
+    text-shadow:2px 2px 3px #454546;
+    font-size: 25px;
+}
+.footer{
+    border-top:1px solid grey;
+    background-color: black;
+}
+.footer p{
+    color: white;
+    font-size: 16px;
+}
+
+/* contact */
+.contact-img{
+    background-image: url(images/backgroundimg-4.jpg);
+    background-size: cover;
+}
+
+.contact-form {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(40deg,rgb(255, 225, 0),rgb(255, 72, 0));
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(40deg,rgb(255, 225, 0),rgb(255, 72, 0));
+}
+.map{
+    border-radius: 30px;
+}
+
